@@ -1,4 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
 
+
+
+
+   
+
+   
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <script>
+    
 function LinkedList(x) {
     this.next = null;
     this.value = x;
@@ -23,7 +39,8 @@ LinkedList.prototype.remove = function (arg, prev) {
 }
 //print
 LinkedList.prototype.print = function () {
-    console.log(this.value);
+  //  console.log(this.value);
+    document.writeln(this.value);
     if (this.next)
         this.next.print();
 }
@@ -36,3 +53,27 @@ linkedlist.print(); //Expected Result: LinkedList{1,2,3};
 linkedlist.remove(2);
 
 linkedlist.print(); //Expected Result: LinkedList{1,3};
+   </script>
+</head>
+
+
+
+<body>
+<br />
+
+
+</body>
+
+</html>
+    </scrip>
+   </head>
+
+
+
+
+<body>
+
+
+</body>
+
+</html>
